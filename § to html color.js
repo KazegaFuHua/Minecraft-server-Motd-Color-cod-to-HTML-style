@@ -1,5 +1,5 @@
 "use strict"
-function motdtocolor(originmotd,motdbox) {// 从外部调用函数originmotd输如Minecraft样式，例：var motd = '§a§lA §f§lMinecraft §b§lServer !';document.getElementById('MinecraftMotd').innerHTML = motdtocolor(motd);
+function motdtocolor(originmotd,motdbox) {// 从外部调用函数originmotd输如Minecraft样式，例：var motd = '§a§lA §f§lMinecraft §b§lServer !';var motdbox = document.getElementById('MinecraftMotd');motdbox.innerHTML = motdtocolor(motd,motdbox);
 	///////////////////////////////////////////////////////////////////////////////////////准备变量等内容 ↓
 	motdbox.innerHTML = '';// 清空原本div里面的内容
 	// var originmotd = originmotd.replace(/\s/g,'&nbsp;');
