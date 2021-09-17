@@ -1,17 +1,22 @@
 # Minecraft Server Motd to HTML Style
 
+### For now,Temporarily do not consider English users
+
+### [GitHub仓库](https://github.com/KazegaFuHua/Minecraft-server-Motd-Color-cod-to-HTML-style)
+### [Gitee仓库](https://gitee.com/xcfuhua/Minecraft-server-Motd-Color-cod-to-HTML-style)
+### [基于GitHub Pages服务的预览测试页面（可能需要科学上网）](https://kazegafuhua.github.io/Minecraft-server-Motd-Color-cod-to-HTML-style/)
+
 #### 介绍
 Minecraft服务器Motd信息转H5样式
 
 ### 用前必看
-
 在写这个项目前我完全不会JavaScript，我只是自己的网站需要用到MC服务器的Motd样式转HTML形式，然后去网上搜索没有搜索到别的大佬的成品，于是自己百度JS语法、各种函数、各种命令，一边学一边写了一个
 
 这个项目肯定不完美，肯定不如别的大佬写出来的作品，我也仅供我自己使用，写出来了顺便分享出来
 
 我并没有任何编程基础，只是两年前看过十几集HTML教学视频，然后自己试着学了HTML和CSS，没有其他任何语言的基础（具体可以看下面的“这个项目背后的一些小事，这个项目的由来”，所以这个项目的有些代码可能会让你血压升高，出现各种超自然现象，本作者概不负责
-#### 这个项目背后的一些小事，这个项目的由来
 
+#### 这个项目背后的一些小事，这个项目的由来
 首先，我在开始写这个项目（2021.09.04）之前，完全不会JavaScript这个语言
 
 但我曾经看过一些教程，也只是看了个开头，js如何创建变量，var和let的区别，变量的几种数据类型，差不多就这些
@@ -74,14 +79,12 @@ Minecraft服务器Motd信息转H5样式
 ```
 
 #### 安装教程
-
 丢入你的网站目录，在HMTL中加入
 ```html
 <script src="这里填js文件位置" type="text/javascript"></script>
 ```
 
 #### 使用说明
-
 1.  丢入你的网站目录，在HMTL中加入
 ```html
 <script src="这里填js文件位置" type="text/javascript"></script>
@@ -115,7 +118,6 @@ function motdinput() {
 4. 也可以用调用API接口来获取服务器Motd信息，然后丢给函数去处理，加上自动刷新，可以实现实时显示。这里就不多演示了
 
 #### 参与贡献
-
 - 网上各种js教程
 - 感谢[菜鸟教程](https://www.runoob.com)
 - 感谢[CSDN开发社区](https://www.csdn.net/)
