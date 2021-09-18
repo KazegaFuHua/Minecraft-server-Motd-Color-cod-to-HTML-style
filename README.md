@@ -6,8 +6,13 @@
 ### [Gitee仓库](https://gitee.com/xcfuhua/Minecraft-server-Motd-Color-cod-to-HTML-style)
 ### [基于GitHub Pages服务的预览测试页面（可能需要科学上网）](https://kazegafuhua.github.io/Minecraft-server-Motd-Color-cod-to-HTML-style/)
 
-#### 介绍
+### 介绍
 Minecraft服务器Motd信息转H5样式
+
+一张图看懂这个项目是干啥的，效果啥样
+
+![预览图](/preview.jpg)
+<center>预览图</center>
 
 ### 用前必看
 在写这个项目前我完全不会JavaScript，我只是自己的网站需要用到MC服务器的Motd样式转HTML形式，然后去网上搜索没有搜索到别的大佬的成品，于是自己百度JS语法、各种函数、各种命令，一边学一边写了一个
@@ -16,6 +21,7 @@ Minecraft服务器Motd信息转H5样式
 
 我并没有任何编程基础，只是两年前看过十几集HTML教学视频，然后自己试着学了HTML和CSS，没有其他任何语言的基础（具体可以看下面的“这个项目背后的一些小事，这个项目的由来”，所以这个项目的有些代码可能会让你血压升高，出现各种超自然现象，本作者概不负责
 
+该项目不支持Minecraft的§k随机符号样式！如果有§k随机符号转换时会在浏览器控制台回报警告，但不会影响正常转换
 #### 这个项目背后的一些小事，这个项目的由来
 首先，我在开始写这个项目（2021.09.04）之前，完全不会JavaScript这个语言
 
